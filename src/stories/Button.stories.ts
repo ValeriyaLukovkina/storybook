@@ -25,6 +25,7 @@ const meta = {
 } satisfies Meta<typeof Button>;
 
 // new
+// new2
 
 export default meta;
 type Story = StoryObj<typeof meta>;
