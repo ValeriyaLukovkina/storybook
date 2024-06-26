@@ -1,4 +1,3 @@
-
 import { within, userEvent, expect, fn } from "@storybook/test";
 import Checkbox from "./Checkbox";
 import { Meta, StoryObj } from "@storybook/react";
@@ -7,7 +6,7 @@ const meta: Meta<typeof Checkbox> = {
   title: "Example/CheckboxAction",
   component: Checkbox,
   args: { onChange: fn() },
-  tags: ['!autodocs'],
+  tags: ["!autodocs"],
 };
 
 export default meta;
@@ -18,7 +17,6 @@ export const Unchecked: Story = {
     text: "Checkbox",
   },
 };
-
 
 export const Checked: Story = {
   args: {

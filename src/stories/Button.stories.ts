@@ -47,7 +47,6 @@ export const PrimaryLarge: Story = {
   },
 };
 
-
 // export const Small: Story = {
 //   args: {
 //     size: "small",

@@ -2,7 +2,7 @@ import { memo } from 'react';
 
 import styles from './Checkbox.module.css';
 
-import type { FC, InputHTMLAttributes } from 'react';
+import type { FC } from 'react';
 
 export interface CheckboxProps {
   text: string;

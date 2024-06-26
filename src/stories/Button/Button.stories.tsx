@@ -14,7 +14,7 @@ const meta: Meta<typeof Button> = {
     },
   },
   // parameters: {
-  //   layout: "centered",
+  //   layout: "fullscreen",
   //   backgrounds: {
   //     default: "white",
   //     values: [
